@@ -1,0 +1,298 @@
+/* ---------------------------------
+   MindCare AI - Main Style
+----------------------------------*/
+
+
+body {
+
+    background: #f4f7fb;
+
+    font-family: "Segoe UI", Arial, sans-serif;
+
+    color: #2d3748;
+
+}
+
+
+
+
+/* Header */
+
+h1 {
+
+    font-weight: 700;
+
+    color: #2563eb;
+
+}
+
+
+h3, h4 {
+
+    color: #334155;
+
+}
+
+
+
+
+
+/* Dashboard Cards */
+
+.dashboard-card {
+
+    border: none;
+
+    border-radius: 18px;
+
+    background: white;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+
+}
+
+
+
+.dashboard-card:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+    0 12px 25px rgba(0,0,0,0.12);
+
+}
+
+
+
+
+.dashboard-card i {
+
+    color: #2563eb;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.dashboard-card h2 {
+
+    color: #111827;
+
+    font-weight: bold;
+
+}
+
+
+
+
+
+/* General Cards */
+
+
+.card {
+
+    border:none;
+
+    border-radius:20px;
+
+    box-shadow:
+
+    0 8px 20px rgba(0,0,0,0.08);
+
+}
+
+
+
+
+
+/* Buttons */
+
+
+.btn-primary {
+
+    background:#2563eb;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:10px 25px;
+
+}
+
+
+
+.btn-primary:hover {
+
+    background:#1d4ed8;
+
+}
+
+
+
+
+
+.btn-success {
+
+    border-radius:12px;
+
+}
+
+
+
+
+
+/* Text area */
+
+
+textarea {
+
+    border-radius:15px !important;
+
+    border:1px solid #cbd5e1 !important;
+
+    resize:none;
+
+}
+
+
+
+textarea:focus {
+
+    border-color:#2563eb !important;
+
+    box-shadow:
+    0 0 0 3px rgba(37,99,235,0.15)
+    !important;
+
+}
+
+
+
+
+
+/* Chat */
+
+
+.chat-box {
+
+
+    height:300px;
+
+    overflow-y:auto;
+
+    background:#f8fafc;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    border:1px solid #e2e8f0;
+
+}
+
+
+
+
+.message {
+
+
+    margin-bottom:15px;
+
+    padding:12px 15px;
+
+    border-radius:15px;
+
+    max-width:80%;
+
+}
+
+
+
+
+.user-message {
+
+
+    background:#2563eb;
+
+    color:white;
+
+    margin-left:auto;
+
+}
+
+
+
+
+.ai-message {
+
+
+    background:#e2e8f0;
+
+    color:#1e293b;
+
+}
+
+
+
+
+
+/* Input */
+
+
+#chatInput {
+
+    border-radius:12px 0 0 12px;
+
+}
+
+
+
+#chatInput:focus {
+
+    box-shadow:none;
+
+}
+
+
+
+
+
+/* Charts */
+
+
+canvas {
+
+    max-height:300px;
+
+}
+
+
+
+
+
+/* Mobile */
+
+
+@media(max-width:768px){
+
+
+    h1 {
+
+        font-size:28px;
+
+    }
+
+
+    .dashboard-card {
+
+        margin-bottom:10px;
+
+    }
+
+
+}
